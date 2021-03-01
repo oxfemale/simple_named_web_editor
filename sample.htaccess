@@ -1,0 +1,5 @@
+#passwd -c .htpasswd admin
+AuthName "Restricted access"
+AuthType Basic
+AuthUserFile /var/www/topline.online/.htpasswd
+Require valid-user
